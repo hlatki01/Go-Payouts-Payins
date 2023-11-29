@@ -27,9 +27,9 @@ func generateHMACSHA256Signature(payload, secretKey string) string {
 func main() {
 	apiURL := "https://sandbox.dlocal.com/api_curl/cashout_api/request_cashout"
 	timestamp := time.Now().UTC().Format("2006-01-02T15:04:05Z")
-	login := "userco"
-	transKey := "passco"
-	secretKey := "secretco"
+	login := "x"
+	transKey := "x"
+	secretKey := "x"
 
 	// Generate a random external_id
 	externalID := uuid.New().String()
